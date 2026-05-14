@@ -77,56 +77,57 @@ Runs entirely on your machine — no API key, no cost, no data sent anywhere.
 
 ## Installation
 
-### From Chrome Web Store
-Install MangaLens directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/hoagaedakmopbokhnbjhoakgpdijahpg?utm_source=item-share-cb) — just click **Add to Chrome**.
+### Step 1 — Install from the Chrome Web Store
 
-### Manual (Developer Mode)
-1. Download and unzip the extension
-2. Open Chrome and go to `chrome://extensions`
-3. Enable **Developer mode** (top right toggle)
-4. Click **Load unpacked** and select the unzipped folder
-5. The purple M icon will appear in your toolbar
-
----
-
-## Quick Start
-
-Follow these steps to go from zero to translating in under 2 minutes:
-
-**Step 1 — Install the extension**
 Click **Add to Chrome** from the [Chrome Web Store](https://chromewebstore.google.com/detail/hoagaedakmopbokhnbjhoakgpdijahpg?utm_source=item-share-cb).
 
-**Step 2 — Get an API key**
-MangaLens needs an API key from OpenAI or Anthropic (Claude) to power translations. Watch this quick guide to get one:
-[How to get an API key (YouTube)](https://www.youtube.com/watch?v=SzPE_AE0eEo)
+---
 
-- **OpenAI key** → [platform.openai.com/api-keys](https://platform.openai.com/api-keys)
-- **Claude key** → [console.anthropic.com/keys](https://console.anthropic.com/keys)
-- **No key needed** → use the free local **Ollama** option instead
+### Step 2 — Get an API key
 
-**Step 3 — Configure the extension**
-1. Click the purple **M** icon in your Chrome toolbar
-2. Select your AI provider tab (Claude / GPT-4o / 4.1 Nano / Ollama)
-3. Paste your API key into the field
-4. Choose your **Translate To** language from the dropdown
-5. Click **Save settings**
+MangaLens needs an API key to power translations. Watch this 2-minute guide to get one:
 
-**Step 4 — Go to any manga site**
-Navigate to any supported site (MangaDex, Webtoons, Naver, etc.) and open a chapter.
+**[How to get an API key (YouTube)](https://www.youtube.com/watch?v=SzPE_AE0eEo)**
 
-**Step 5 — Hover and translate**
-Hover over any panel image — a purple **Translate** button appears in the corner. Click it and the translation overlays directly on the panel within a few seconds.
+| Provider | Where to get the key | Cost per panel |
+|----------|----------------------|----------------|
+| Claude (Anthropic) | [console.anthropic.com/keys](https://console.anthropic.com/keys) | ~$0.003 |
+| GPT-4o mini (OpenAI) | [platform.openai.com/api-keys](https://platform.openai.com/api-keys) | ~$0.0003 |
+| GPT-4.1 Nano (OpenAI) | Same OpenAI key | ~$0.00004 |
+| Ollama (Local) | No key needed — free | Free |
 
 ---
 
-## Setup
+### Step 3 — Click the icon, select your language, and save
 
-### Claude or OpenAI
-1. Click the MangaLens icon (purple M) in the Chrome toolbar
-2. Select your preferred provider tab (Claude / GPT-4o / 4.1 Nano)
-3. Enter your API key and click **Save settings**
+Click the purple **M** icon in your Chrome toolbar, select your AI provider tab, paste your API key, choose the language you want to translate to, then click **Save settings**.
 
-### Ollama (Local AI)
+![MangaLens popup settings](screenshots/1-popup.png)
+
+![MangaLens in browser](screenshots/2-browser.png)
+
+---
+
+### Step 4 — Go to any manga website
+
+Navigate to any supported site (MangaDex, Webtoons, Naver Webtoon, Viz, etc.) and open a chapter or episode.
+
+---
+
+### Step 5 — Hover over the panel and translate
+
+Hover over any panel image — a purple **Translate** button appears in the corner. Click it and the English translation overlays directly on the panel within seconds. Click anywhere on the overlay to dismiss it.
+
+![Translate button appearing on hover](screenshots/3-translate-btn.png)
+
+![Translation overlay on panel](screenshots/4-overlay.png)
+
+---
+
+### Ollama (Local / Free) Setup
+
+If you prefer to run AI locally with no API key:
+
 1. Install Ollama from [ollama.com](https://ollama.com)
 2. Pull the vision model:
    ```
@@ -142,13 +143,7 @@ Hover over any panel image — a purple **Translate** button appears in the corn
 
 ---
 
-## How to Use
-
-1. Go to any supported manga or webtoon site
-2. Open an episode/chapter
-3. Hover over a panel — a purple **Translate** button appears
-4. Click it — the translation overlays directly on the panel within a few seconds
-5. Click anywhere on the overlay to dismiss it
+## More Options
 
 ### Auto-translate
 Toggle **Auto-translate on scroll** in the popup to automatically translate panels as they enter the viewport. Useful for binge-reading.

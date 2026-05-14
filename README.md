@@ -1,4 +1,4 @@
-# MangaLens 🔍
+# MangaLens 🔍 - [Chrome Web Store](https://chromewebstore.google.com/detail/hoagaedakmopbokhnbjhoakgpdijahpg?utm_source=item-share-cb)
 
 > Translate manga and webtoon panels instantly using AI — directly in your browser.
 

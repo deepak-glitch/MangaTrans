@@ -78,7 +78,7 @@ Runs entirely on your machine — no API key, no cost, no data sent anywhere.
 ## Installation
 
 ### From Chrome Web Store
-Search for **MangaLens** on the [Chrome Web Store](https://chromewebstore.google.com/detail/hoagaedakmopbokhnbjhoakgpdijahpg?utm_source=item-share-cb) and click Install.
+Install MangaLens directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/hoagaedakmopbokhnbjhoakgpdijahpg?utm_source=item-share-cb) — just click **Add to Chrome**.
 
 ### Manual (Developer Mode)
 1. Download and unzip the extension
@@ -89,12 +89,42 @@ Search for **MangaLens** on the [Chrome Web Store](https://chromewebstore.google
 
 ---
 
+## Quick Start
+
+Follow these steps to go from zero to translating in under 2 minutes:
+
+**Step 1 — Install the extension**
+Click **Add to Chrome** from the [Chrome Web Store](https://chromewebstore.google.com/detail/hoagaedakmopbokhnbjhoakgpdijahpg?utm_source=item-share-cb).
+
+**Step 2 — Get an API key**
+MangaLens needs an API key from OpenAI or Anthropic (Claude) to power translations. Watch this quick guide to get one:
+[How to get an API key (YouTube)](https://www.youtube.com/watch?v=SzPE_AE0eEo)
+
+- **OpenAI key** → [platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+- **Claude key** → [console.anthropic.com/keys](https://console.anthropic.com/keys)
+- **No key needed** → use the free local **Ollama** option instead
+
+**Step 3 — Configure the extension**
+1. Click the purple **M** icon in your Chrome toolbar
+2. Select your AI provider tab (Claude / GPT-4o / 4.1 Nano / Ollama)
+3. Paste your API key into the field
+4. Choose your **Translate To** language from the dropdown
+5. Click **Save settings**
+
+**Step 4 — Go to any manga site**
+Navigate to any supported site (MangaDex, Webtoons, Naver, etc.) and open a chapter.
+
+**Step 5 — Hover and translate**
+Hover over any panel image — a purple **Translate** button appears in the corner. Click it and the translation overlays directly on the panel within a few seconds.
+
+---
+
 ## Setup
 
 ### Claude or OpenAI
 1. Click the MangaLens icon (purple M) in the Chrome toolbar
 2. Select your preferred provider tab (Claude / GPT-4o / 4.1 Nano)
-3. Enter your API key and click **Save**
+3. Enter your API key and click **Save settings**
 
 ### Ollama (Local AI)
 1. Install Ollama from [ollama.com](https://ollama.com)
@@ -116,18 +146,18 @@ Search for **MangaLens** on the [Chrome Web Store](https://chromewebstore.google
 
 1. Go to any supported manga or webtoon site
 2. Open an episode/chapter
-3. Hover over a panel — a purple **🌐 Translate** button appears
+3. Hover over a panel — a purple **Translate** button appears
 4. Click it — the translation overlays directly on the panel within a few seconds
 5. Click anywhere on the overlay to dismiss it
 
 ### Auto-translate
-Toggle **⚡ Auto-translate on scroll** in the popup to automatically translate panels as they enter the viewport. Useful for binge-reading.
+Toggle **Auto-translate on scroll** in the popup to automatically translate panels as they enter the viewport. Useful for binge-reading.
 
 ### Translate All
-Click **🌐 Translate all visible panels** in the popup to queue all panels on the current page at once.
+Click **Translate all visible panels** in the popup to queue all panels on the current page at once.
 
 ### Clear Cache
-Click **🗑 Clear cache** in the popup footer to remove all cached translations (useful if you switch providers or languages).
+Click **Clear cache** in the popup footer to remove all cached translations (useful if you switch providers or languages).
 
 ---
 

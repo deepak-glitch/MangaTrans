@@ -78,7 +78,7 @@ Runs entirely on your machine — no API key, no cost, no data sent anywhere.
 ## Installation
 
 ### From Chrome Web Store
-Search for **MangaLens** on the [Chrome Web Store](https://chrome.google.com/webstore) and click Install.
+Search for **MangaLens** on the [Chrome Web Store](https://chromewebstore.google.com/detail/hoagaedakmopbokhnbjhoakgpdijahpg?utm_source=item-share-cb) and click Install.
 
 ### Manual (Developer Mode)
 1. Download and unzip the extension

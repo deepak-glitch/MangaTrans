@@ -77,15 +77,44 @@ Runs entirely on your machine — no API key, no cost, no data sent anywhere.
 
 ## Installation
 
-### From Chrome Web Store
-Search for **MangaLens** on the [Chrome Web Store](https://chromewebstore.google.com/detail/hoagaedakmopbokhnbjhoakgpdijahpg?utm_source=item-share-cb) and click Install.
+**1. Install from the Chrome Web Store**
 
-### Manual (Developer Mode)
-1. Download and unzip the extension
-2. Open Chrome and go to `chrome://extensions`
-3. Enable **Developer mode** (top right toggle)
-4. Click **Load unpacked** and select the unzipped folder
-5. The purple M icon will appear in your toolbar
+[→ Get MangaLens](https://chromewebstore.google.com/detail/hoagaedakmopbokhnbjhoakgpdijahpg?utm_source=item-share-cb)
+
+---
+
+**2. Get an API key**
+
+Pick a provider and grab a free API key:
+- **Anthropic (Claude)** — [console.anthropic.com/keys](https://console.anthropic.com/keys) — ~$0.003/panel, best quality
+- **OpenAI (GPT-4o mini / 4.1 Nano)** — [platform.openai.com/api-keys](https://platform.openai.com/api-keys) — ~$0.0003/panel
+- **Ollama** — free, runs locally, no key needed
+
+---
+
+**3. Configure the extension**
+
+Click the **M** icon in your Chrome toolbar → select a provider tab → paste your API key → choose a target language → click **Save**.
+
+![MangaLens popup — provider selection and API key entry](screenshots/1-popup.png)
+
+![MangaLens open on a manga chapter with popup visible](screenshots/2-browser.png)
+
+---
+
+**4. Open any manga chapter**
+
+Go to any [supported site](#supported-sites) and open a chapter or episode.
+
+---
+
+**5. Hover over a panel and translate**
+
+Hover over any panel — a purple **🌐 Translate** button appears. Click it and the translation overlays directly on the panel within seconds.
+
+![Purple Translate button on hover](screenshots/3-translate-btn.png)
+
+![Translation overlay rendered on panel](screenshots/4-overlay.png)
 
 ---
 

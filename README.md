@@ -79,7 +79,7 @@ Runs entirely on your machine — no API key, no cost, no data sent anywhere.
 
 **1. Install from the Chrome Web Store**
 
-[→ Get MangaLens](https://chromewebstore.google.com/detail/hoagaedakmopbokhnbjhoakgpdijahpg?utm_source=item-share-cb)
+[→ Get MangaTrans](https://chromewebstore.google.com/detail/hoagaedakmopbokhnbjhoakgpdijahpg?utm_source=item-share-cb)
 
 ---
 
